@@ -41,7 +41,6 @@
 }
 
 .jeanimg{
-    /* position: absolute; */
     border: 1px solid rgb(255, 145, 0);
     width: 53.7%;
     height: 600px;
@@ -49,15 +48,15 @@
 }
 
 .subscription{
-    /* position: absolute; */
     border: 1px solid rgb(252, 2, 210);
     width: 53.7%;
     height: 240.5px;
-    margin-left: 455px;   
+    margin-left: 455px; 
+    background-color: black; 
+    color: white;  
 }
 
 .footerpt1{
-    /* position: absolute; */
     border: 1px solid rgb(95, 95, 95);
     width: 53.7%;
     height: 405px;
@@ -65,9 +64,24 @@
 }
 
 .footerpt2{
-    /* position: absolute; */
     border: 1px solid rgb(229, 255, 0);
     width: 53.7%;
-    height: 77.9px;
-    margin-left: 455px;   
+    height: 70px;
+    margin-left: 455px;  
+    background-color: black; 
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px !important;
+    font-weight: 400;
+    text-align: center;
+    padding: 24px 0px 24px 0px;
+}
+
+.link:hover{
+color: white;
+background-color: black;
+}
+
+.link{
+    color: white;
 }
