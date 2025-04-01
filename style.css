@@ -5,11 +5,32 @@
     font-family: "Montserrat", sans-serif;
 }
 
-.nav{
-    border: 1px solid rgb(0, 0, 0);
-    position: fixed;
+#clothing-store {
+    display: flex;
+    width: 100% ;
+    height: auto ;
+
+}
+
+.nav-section{
     height: 100vh;
-    width: 30%;
+    width: 30%; 
+    
+}
+
+#nav-bar {
+    position: fixed;
+    border: 1px solid green;
+    height: inherit;
+    width: inherit; 
+}
+
+#banner {
+    flex: 1 ;
+    border: 1px solid red;
+    display: inline-block;
+    height: 150vh ;
+
 }
 
 .blank{
@@ -23,8 +44,8 @@
 .header{
     border: 1px solid red;
     width: 53.7%;
-    height: 77.9px;
-    margin-left: 455px;
+    height: 7vh;
+  
 }
 
 .headerimg{
