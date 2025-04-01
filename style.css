@@ -1,13 +1,74 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 0; 
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
 }
 
 .nav{
+    border: 1px solid rgb(0, 0, 0);
+    position: fixed;
+    height: 100vh;
+    width: 30%;
+}
+
+.blank{
     border: 1px solid blue;
     position: fixed;
     height: 100vh;
-    width: 28.5%;
+    width: 16.4%;
+    right: 0;
+}
+
+.header{
+    border: 1px solid red;
+    width: 53.7%;
+    height: 77.9px;
+    margin-left: 455px;
+}
+
+.headerimg{
+    border: 1px solid rgb(0, 255, 42);
+    width: 53.7%;
+    height: 550px;
+    margin-left: 455px; 
+}
+
+.jeanheader{
+    border: 1px solid rgb(0, 55, 255);
+    width: 53.7%;
+    height: 46px;
+    margin-left: 455px; 
+}
+
+.jeanimg{
+    /* position: absolute; */
+    border: 1px solid rgb(255, 145, 0);
+    width: 53.7%;
+    height: 600px;
+    margin-left: 455px;   
+}
+
+.subscription{
+    /* position: absolute; */
+    border: 1px solid rgb(252, 2, 210);
+    width: 53.7%;
+    height: 240.5px;
+    margin-left: 455px;   
+}
+
+.footerpt1{
+    /* position: absolute; */
+    border: 1px solid rgb(95, 95, 95);
+    width: 53.7%;
+    height: 405px;
+    margin-left: 455px;   
+}
+
+.footerpt2{
+    /* position: absolute; */
+    border: 1px solid rgb(229, 255, 0);
+    width: 53.7%;
+    height: 77.9px;
+    margin-left: 455px;   
 }
