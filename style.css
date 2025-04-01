@@ -60,10 +60,30 @@
     height: 46px; 
 }
 
+.jeanheaderp{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    margin: 14px;
+    color: #757575;
+}
+
 .jeanimg{
     border: 1px solid rgb(255, 145, 0);
     width: 113vh;
     height: 600px; 
+}
+
+.jean1{
+    width: 27.7vh;
+    height: 31.5vh; 
+    padding-right: 16px;
+}
+
+.jean1p{
+  font-size: 13px;
+  margin: 12px 0px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .subscription{
@@ -72,6 +92,45 @@
     height: 240.5px; 
     background-color: black; 
     color: white;  
+    padding: 32px 16px;
+}
+
+.subh1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    margin: 10px 0px;
+}
+
+.subp{
+    margin: 15px 0px;
+}
+
+.email-input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.subscribe-btn {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 18vh;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+}
+
+.subscribe-btn:hover {
+    color: #000;
+    background-color: #ccc;
 }
 
 .footerpt1{
@@ -87,15 +146,15 @@
     background-color: black; 
     color: white;
     font-family: "Montserrat", sans-serif;
-    font-size: 15px !important;
+    font-size: 14px !important;
     font-weight: 400;
     text-align: center;
     padding: 24px 0px 24px 0px;
+    line-height: 1.5;
 }
 
 .link:hover{
-color: white;
-background-color: black;
+color: gray;
 }
 
 .link{
