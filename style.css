@@ -29,7 +29,8 @@
     flex: 1 ;
     border: 1px solid red;
     display: inline-block;
-    height: 150vh ;
+    height: auto ;
+    padding-left: 1.5vh ;
 
 }
 
@@ -43,53 +44,46 @@
 
 .header{
     border: 1px solid red;
-    width: 53.7%;
-    height: 7vh;
-  
+    width: 113vh;
+    height: 7vh; 
 }
 
 .headerimg{
     border: 1px solid rgb(0, 255, 42);
-    width: 53.7%;
-    height: 550px;
-    margin-left: 455px; 
+    width: 113vh;
+    height: 550px; 
 }
 
 .jeanheader{
     border: 1px solid rgb(0, 55, 255);
-    width: 53.7%;
-    height: 46px;
-    margin-left: 455px; 
+    width: 113vh;
+    height: 46px; 
 }
 
 .jeanimg{
     border: 1px solid rgb(255, 145, 0);
-    width: 53.7%;
-    height: 600px;
-    margin-left: 455px;   
+    width: 113vh;
+    height: 600px; 
 }
 
 .subscription{
     border: 1px solid rgb(252, 2, 210);
-    width: 53.7%;
-    height: 240.5px;
-    margin-left: 455px; 
+    width: 113vh;
+    height: 240.5px; 
     background-color: black; 
     color: white;  
 }
 
 .footerpt1{
     border: 1px solid rgb(95, 95, 95);
-    width: 53.7%;
-    height: 405px;
-    margin-left: 455px;   
+    width: 113vh;
+    height: 405px;  
 }
 
 .footerpt2{
     border: 1px solid rgb(229, 255, 0);
-    width: 53.7%;
-    height: 70px;
-    margin-left: 455px;  
+    width: 113vh;
+    height: 70px; 
     background-color: black; 
     color: white;
     font-family: "Montserrat", sans-serif;
