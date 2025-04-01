@@ -86,6 +86,22 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.jean2{
+    position: absolute;
+    width: 27.7vh;
+    height: 31.5vh;
+    margin-left: 28vh ; 
+    margin-top: -39.7vh;
+}
+
+.jean2p{
+    font-size: 13px;
+    margin: 12px 0px;
+    font-family: "Montserrat", sans-serif; 
+    margin-left: 28vh ;   
+    margin-top: -6vh;
+}
+
 .subscription{
     border: 1px solid rgb(252, 2, 210);
     width: 113vh;
