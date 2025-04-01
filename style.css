@@ -88,19 +88,111 @@
 
 .jean2{
     position: absolute;
-    width: 27.7vh;
+    width: 25.5vh;
     height: 31.5vh;
-    margin-left: 28vh ; 
+    margin-left: 29.4vh ; 
     margin-top: -39.7vh;
+    
 }
 
 .jean2p{
     font-size: 13px;
     margin: 12px 0px;
     font-family: "Montserrat", sans-serif; 
-    margin-left: 28vh ;   
+    margin-left: 29.4vh ;   
     margin-top: -6vh;
 }
+
+.jean3{
+    position: absolute;
+    width: 25.5vh;
+    height: 31.5vh;
+    margin-left: 58.7vh ; 
+    margin-top: -39.7vh;
+}
+
+.jean3p{
+    font-size: 13px;
+    margin: 12px 0px;
+    font-family: "Montserrat", sans-serif; 
+    margin-left: 58.7vh;  
+    margin-top: -6vh;
+}
+
+.jean4{
+    position: absolute;
+    width: 25.5vh;
+    height: 31.5vh;
+    margin-left: 87.3vh ; 
+    margin-top: -39.8vh;
+}
+
+.jean4p{
+    font-size: 13px;
+    margin: 12px 0px;
+    font-family: "Montserrat", sans-serif; 
+    margin-left: 87.3vh;  
+    margin-top: -6vh;
+}
+
+.jean5{
+    position: absolute;
+    width: 25.5vh;
+    height: 31.5vh; 
+    margin-top: 0.9vh;
+}
+
+.jean5p{
+    font-size: 13px !important;
+    margin: 12px 0px;
+    font-family: "Montserrat", sans-serif; 
+    margin-top: 37vh;
+}
+
+.jean6{
+    position: absolute;
+    width: 25.5vh;
+    height: 31.5vh;
+    margin-left: 29.4vh ;  
+    margin-top: -40.5vh;
+}
+
+.jean6p{
+    position: absolute  ;
+    margin-left: 29.4vh ; 
+    font-size: 13px !important;
+    margin-left: 29.4vh ;  
+    font-family: "Montserrat", sans-serif; 
+    margin-top: -37vh;
+}
+
+/* .jean7{
+    position: absolute;
+    width: 25.5vh;
+    height: 31.5vh;
+    margin-left: 58.7vh ; 
+    margin-top: 0.9vh;
+}
+
+.jean7p{
+    margin-left: 58.7vh ;
+    font-size: 13px !important;
+    margin: 12px 0px;
+    font-family: "Montserrat", sans-serif; 
+    margin-top: 20vh;
+}
+
+.jean8{
+    position: absolute;
+    width: 25.5vh;
+    height: 31.5vh;
+    margin-left: 87.3vh ;
+    margin-top: 0.9vh;
+}
+
+.jean8p{
+    margin-left: 87.3vh ;
+}  */
 
 .subscription{
     border: 1px solid rgb(252, 2, 210);
