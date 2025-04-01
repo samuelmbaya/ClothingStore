@@ -3,6 +3,7 @@
     padding: 0; 
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
+    
 }
 
 #clothing-store {
@@ -15,15 +16,29 @@
 .nav-section{
     height: 100vh;
     width: 30%; 
+    border: 1px solid orange ;
+    
     
 }
 
 #nav-bar {
     position: fixed;
-    border: 1px solid green;
+    border: 2px solid green;
     height: inherit;
     width: inherit; 
+   
+
+    padding-left: 33vh ;
+  
 }
+
+#nav-heading{
+    font-size: 18.3px ;
+    letter-spacing: 2px;
+    padding: 3vh 0 11.4vh 2.5vh ;
+    font-weight: 10px ;
+}
+
 
 #banner {
     flex: 1 ;
@@ -31,8 +46,76 @@
     display: inline-block;
     height: auto ;
     padding-left: 1.5vh ;
+   
 
 }
+
+#banner div{
+  overflow: hidden;
+}
+
+.nav-content li {
+    border: 1px solid white ; 
+    font-family: "Roboto", sans-serif;
+    list-style-type: none;
+
+}
+
+.navtop-section li{
+    font-size: 12.9px;
+    color: #757575 ;
+    font-weight: bold;
+    padding: 1vh 0 1.5vh 2.5vh;
+
+}
+
+.navbottom-section {
+    margin: 7.5vh 0 0 0;
+    font-size: 10.9px;
+
+}
+
+.navbottom-section li{
+    padding: 1vh 0 1.3vh 2.5vh;
+}
+
+.nav-content li:hover {
+    background-color: #ccc;
+}
+
+#skinny {
+    background-color: #f1f1f1;
+    color: black ;
+}
+
+.skinny-icon {
+    margin-right: 1.5vh;
+}
+
+#dropdown-content {
+    display: none;
+    margin: 1.4vh 2vh 1.5vh 0;
+}
+
+
+#dropdown-content li {
+  padding: unset;
+  font-size: 10.9px;
+  margin-left: 3vh ;
+  padding: 1vh 0 1.2vh 2vh ;
+}
+
+
+#dropdown {
+    color: black ;
+   
+}
+
+#dropdown:hover + #dropdown-content{
+    display: block;
+    
+}
+
 
 .blank{
     border: 1px solid blue;
@@ -46,6 +129,9 @@
     border: 1px solid red;
     width: 113vh;
     height: 7vh; 
+
+    display: flex;
+    justify-content: space-between;
 }
 
 .headerimg{
