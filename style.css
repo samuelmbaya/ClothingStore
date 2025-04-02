@@ -60,11 +60,148 @@
     height: 46px; 
 }
 
+.jeanheaderp{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    margin: 14px;
+    color: #757575;
+}
+
 .jeanimg{
     border: 1px solid rgb(255, 145, 0);
     width: 113vh;
     height: 600px; 
 }
+
+.jean1{
+    width: 27.7vh;
+    height: 31.5vh; 
+    padding-right: 16px;
+}
+
+.jean1p{
+  font-size: 13px;
+  margin: 12px 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.jean2{
+    position: absolute;
+    width: 25.5vh;
+    height: 31.5vh;
+    margin-left: 29.4vh ; 
+    margin-top: -39.7vh;
+    
+}
+
+.jean2p{
+    font-size: 13px;
+    margin: 12px 0px;
+    font-family: "Montserrat", sans-serif; 
+    margin-left: 29.4vh ;   
+    margin-top: -6vh;
+}
+
+.jean3{
+    position: absolute;
+    width: 25.5vh;
+    height: 31.5vh;
+    margin-left: 58.7vh ; 
+    margin-top: -39.7vh;
+}
+
+.jean3p{
+    font-size: 13px;
+    margin: 12px 0px;
+    font-family: "Montserrat", sans-serif; 
+    margin-left: 58.7vh;  
+    margin-top: -6vh;
+}
+
+.jean4{
+    position: absolute;
+    width: 25.5vh;
+    height: 31.5vh;
+    margin-left: 87.3vh ; 
+    margin-top: -39.8vh;
+}
+
+.jean4p{
+    font-size: 13px;
+    margin: 12px 0px;
+    font-family: "Montserrat", sans-serif; 
+    margin-left: 87.3vh;  
+    margin-top: -6vh;
+}
+
+.jean5{
+    position: absolute;
+    width: 25.5vh;
+    height: 31.5vh; 
+    margin-top: 0.9vh;
+}
+
+.jean5p{
+    font-size: 13px !important;
+    margin: 12px 0px;
+    font-family: "Montserrat", sans-serif; 
+    margin-top: 37vh;
+}
+
+.jean6{
+    position: absolute;
+    width: 25.5vh;
+    height: 31.5vh;
+    margin-left: 29.4vh ;  
+    margin-top: -40.5vh;
+}
+
+.jean6p{
+    position: absolute  ;
+    margin-left: 29.4vh ; 
+    font-size: 13px !important;
+    margin-left: 29.4vh ;  
+    font-family: "Montserrat", sans-serif; 
+    margin-top: -6vh;
+}
+
+    .jean7{
+    position: absolute;
+    width: 25.5vh;
+    height: 31.5vh;
+    margin-left: 58.7vh ; 
+    margin-top: -40.5vh;
+}
+
+.jean7p{
+    margin-left: 58.7vh ;
+    font-size: 13px !important;
+    margin: 12px 0px;
+    font-family: "Montserrat", sans-serif; 
+    margin-left: 58.7vh;
+    margin-top: -6vh;
+}
+
+.jean7b{
+    color: #f44336;
+}
+
+.jean8{
+    position: absolute;
+    width: 25.5vh;
+    height: 31.5vh;
+    margin-left: 87.3vh ;
+    margin-top: 0.9vh;
+    margin-top: -40.5vh;
+}
+
+.jean8p{
+    margin-left: 87.3vh ;
+    margin-top: -6vh;
+    font-size: 13px !important;
+    font-family: "Montserrat", sans-serif;
+} 
 
 .subscription{
     border: 1px solid rgb(252, 2, 210);
@@ -72,6 +209,45 @@
     height: 240.5px; 
     background-color: black; 
     color: white;  
+    padding: 32px 16px;
+}
+
+.subh1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    margin: 10px 0px;
+}
+
+.subp{
+    margin: 15px 0px;
+}
+
+.email-input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.subscribe-btn {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 18vh;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+}
+
+.subscribe-btn:hover {
+    color: #000;
+    background-color: #ccc;
 }
 
 .footerpt1{
@@ -87,15 +263,15 @@
     background-color: black; 
     color: white;
     font-family: "Montserrat", sans-serif;
-    font-size: 15px !important;
+    font-size: 14px !important;
     font-weight: 400;
     text-align: center;
     padding: 24px 0px 24px 0px;
+    line-height: 1.5;
 }
 
 .link:hover{
-color: white;
-background-color: black;
+color: gray;
 }
 
 .link{
