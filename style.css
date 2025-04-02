@@ -15,7 +15,7 @@
 
 .nav-section{
     height: 100vh;
-    width: 30%; 
+    width: 29.3%; 
     border: 1px solid orange ;
     
     
@@ -26,8 +26,6 @@
     border: 2px solid green;
     height: inherit;
     width: inherit; 
-   
-
     padding-left: 33vh ;
   
 }
@@ -45,7 +43,7 @@
     border: 1px solid red;
     display: inline-block;
     height: auto ;
-    padding-left: 1.5vh ;
+    /* padding-left: 1.5vh ; */
    
 
 }
@@ -129,7 +127,7 @@
     border: 1px solid red;
     width: 113vh;
     height: 7vh; 
-
+    margin-left: 1.5vh ;
     display: flex;
     justify-content: space-between;
 }
@@ -138,12 +136,14 @@
     border: 1px solid rgb(0, 255, 42);
     width: 113vh;
     height: 550px; 
+    margin-left: 1.5vh ;
 }
 
 .jeanheader{
     border: 1px solid rgb(0, 55, 255);
     width: 113vh;
     height: 46px; 
+    margin-left: 1.5vh ;
 }
 
 .jeanheaderp{
@@ -156,142 +156,57 @@
 
 .jeanimg{
     border: 1px solid rgb(255, 145, 0);
-    width: 113vh;
+    width: 117.2vh;
     height: 600px; 
+    display: flex-box;  
 }
 
-.jean1{
-    width: 27.7vh;
-    height: 31.5vh; 
-    padding-right: 16px;
+.row1,.row2 {
+    border: 2px solid blue;
+    width: 100%;
+    height:50% ;
+    display: flex;
+    margin-left: 1vh ;
 }
 
-.jean1p{
-  font-size: 13px;
-  margin: 12px 0px;
+/* .row2 div {
+    width:25% ;
+    height: 100%;2
+    border: 1px solid red;
+}
+
+.row1 div {
+    width:25% ;
+    height: 100%;
+    border: 1px solid red;
+
+} */
+
+.jeans {
+    width:25% ;
+    height: 100%;
+    border: 1px solid red;
+    padding: 0 1.5vh 0 1.5vh ;
+}
+
+ .jeans img{
+    width: 98%;
+    height: 31vh ;
+    filter: grayscale(0.8);
+}
+
+.jeans{
+  font-size: 13.5px;
   font-family: "Montserrat", sans-serif;
-}
+} 
 
-.jean2{
-    position: absolute;
-    width: 25.5vh;
-    height: 31.5vh;
-    margin-left: 29.4vh ; 
-    margin-top: -39.7vh;
-    
-}
-
-.jean2p{
-    font-size: 13px;
-    margin: 12px 0px;
-    font-family: "Montserrat", sans-serif; 
-    margin-left: 29.4vh ;   
-    margin-top: -6vh;
-}
-
-.jean3{
-    position: absolute;
-    width: 25.5vh;
-    height: 31.5vh;
-    margin-left: 58.7vh ; 
-    margin-top: -39.7vh;
-}
-
-.jean3p{
-    font-size: 13px;
-    margin: 12px 0px;
-    font-family: "Montserrat", sans-serif; 
-    margin-left: 58.7vh;  
-    margin-top: -6vh;
-}
-
-.jean4{
-    position: absolute;
-    width: 25.5vh;
-    height: 31.5vh;
-    margin-left: 87.3vh ; 
-    margin-top: -39.8vh;
-}
-
-.jean4p{
-    font-size: 13px;
-    margin: 12px 0px;
-    font-family: "Montserrat", sans-serif; 
-    margin-left: 87.3vh;  
-    margin-top: -6vh;
-}
-
-.jean5{
-    position: absolute;
-    width: 25.5vh;
-    height: 31.5vh; 
-    margin-top: 0.9vh;
-}
-
-.jean5p{
-    font-size: 13px !important;
-    margin: 12px 0px;
-    font-family: "Montserrat", sans-serif; 
-    margin-top: 37vh;
-}
-
-.jean6{
-    position: absolute;
-    width: 25.5vh;
-    height: 31.5vh;
-    margin-left: 29.4vh ;  
-    margin-top: -40.5vh;
-}
-
-.jean6p{
-    position: absolute  ;
-    margin-left: 29.4vh ; 
-    font-size: 13px !important;
-    margin-left: 29.4vh ;  
-    font-family: "Montserrat", sans-serif; 
-    margin-top: -6vh;
-}
-
-    .jean7{
-    position: absolute;
-    width: 25.5vh;
-    height: 31.5vh;
-    margin-left: 58.7vh ; 
-    margin-top: -40.5vh;
-}
-
-.jean7p{
-    margin-left: 58.7vh ;
-    font-size: 13px !important;
-    margin: 12px 0px;
-    font-family: "Montserrat", sans-serif; 
-    margin-left: 58.7vh;
-    margin-top: -6vh;
-}
-
-.jean7b{
-    color: #f44336;
-}
-
-.jean8{
-    position: absolute;
-    width: 25.5vh;
-    height: 31.5vh;
-    margin-left: 87.3vh ;
-    margin-top: 0.9vh;
-    margin-top: -40.5vh;
-}
-
-.jean8p{
-    margin-left: 87.3vh ;
-    margin-top: -6vh;
-    font-size: 13px !important;
-    font-family: "Montserrat", sans-serif;
+.jeansp{
+    padding: 1.5vh 0vh 1vh 0;
 } 
 
 .subscription{
     border: 1px solid rgb(252, 2, 210);
-    width: 113vh;
+    width: 117.2vh;
     height: 240.5px; 
     background-color: black; 
     color: white;  
@@ -338,13 +253,13 @@
 
 .footerpt1{
     border: 1px solid rgb(95, 95, 95);
-    width: 113vh;
+    width: 117.2vh;
     height: 405px;  
 }
 
 .footerpt2{
     border: 1px solid rgb(229, 255, 0);
-    width: 113vh;
+    width: 117.2vh;
     height: 70px; 
     background-color: black; 
     color: white;
