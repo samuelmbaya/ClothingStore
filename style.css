@@ -237,6 +237,7 @@ button a {
     height: 100%;
     /* border: 1px solid red; */
     padding: 0 1.5vh 0 1.5vh ;
+    position: relative;
 }
 
  .jeans img{
@@ -253,32 +254,19 @@ button a {
 .jeansp{
     padding: 1.5vh 0vh 1vh 0;
 } 
+ 
 
-.new-label1 {
+.sale-label, .new-label1 {
     position: absolute;
-    top: 89.2%;
-    left: 46.4%; 
-    transform: translate(-50%, -50%); 
-    color: white;
-    background-color: #000;
-    font-size: 14px;
-    width: 6vh;
-    height: 2.5vh;
-    text-align: center;
-} 
-
-.sale-label {
-    position: absolute;
-    top: 129.78%;
-    left: 60.63%;
-    transform: translate(-50%, -50%);
     color: white;
     background-color: #000;
     font-size: 14px; 
     border: none;
     width: 6vh;
     height: 2.5vh;
+    z-index:1;
     text-align: center;
+
 }  
 
 .buy-button {
