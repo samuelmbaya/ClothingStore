@@ -254,7 +254,102 @@
 .footerpt1{
     border: 1px solid rgb(95, 95, 95);
     width: 117.2vh;
-    height: 405px;  
+    height: 52vh;  
+    background-color: #f1f1f1;
+    display:flex ;
+    
+}
+.footerpt1 div {
+    /* border: 1px solid red ; */
+    width: 33.3% ;
+    height: 100% ;
+    padding: 0 1.5vh  ;
+  
+
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footerpt1 h4 {
+    
+    font-size: 15px ;
+    font-weight: lighter ;
+    text-align: center;
+    padding: 9vh 0 1.5vh 0;
+
+}
+
+.footerpt1 p {
+    font-size: 9px ;
+    font-weight: lighter;
+    text-align: center;
+}
+
+#contact-form input[type="text"], input[type="email"] {
+    margin-top: 1.5vh ;
+    width: 100% ;
+    height: 4.5vh ;
+    font-size: 9px ;
+    padding-left: 1vh;
+    border: 1px solid lightgray;
+
+}
+
+#contact-form input[type="submit"]{
+
+    margin-top: 1.5vh ;
+    width: 100% ;
+    height: 4vh ;
+    font-size: 9px ;
+    border:none;
+    background-color: black;
+    color: white ;
+
+}
+
+#contact-form input[type="submit"]:hover{
+
+    background-color: #ccc;
+    color: black ;
+    cursor:grab ;
+
+}
+
+#about a {
+    color: black ;
+}
+
+#about p, #store p {
+    padding-bottom: 1.5vh;
+}
+
+#store h4,#store p {
+    text-align: left;
+}
+
+#we-accept {
+    padding-top: unset ;
+    padding-top: 1.5vh ;
+}
+
+#store i {
+    margin-right: 0.8vh ;
+}
+
+#footer-icons {
+    font-size: 13px ;
+    margin-top: 2vh;
+   
+}
+
+#footer-icons i {
+    margin: unset;
+}
+
+#footer-icons i:hover {
+    opacity: 60%;
 }
 
 .footerpt2{
