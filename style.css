@@ -50,6 +50,11 @@
 
 #banner div{
   overflow: hidden;
+  
+}
+
+.nav-content a {
+    text-decoration: none;
 }
 
 .nav-content li {
@@ -126,21 +131,79 @@
 .header{
     border: 1px solid red;
     width: 113vh;
-    height: 7vh; 
-    margin-left: 1.5vh ;
+    height: 9.8vh; 
+   
+
     display: flex;
+    align-items: center;
     justify-content: space-between;
+}
+
+#main-heading{
+    font-size: 18px;
+    font-weight: lighter ;
+    
+}
+
+#header-icons i {
+    font-size: 18px;
+    padding-left: 10px;
+
 }
 
 .headerimg{
     border: 1px solid rgb(0, 255, 42);
     width: 113vh;
-    height: 550px; 
-    margin-left: 1.5vh ;
+    height: auto; 
+    position: relative;
+}
+
+.headerimg img{
+    width: 100% ;
+    
+}
+
+#img-headings{
+    position: absolute;
+    color: white ;
+    Padding: 5.5vh 0 0 4vh ;
+
+}
+
+#img-headings h2 {
+   font-size: 47px ;
+   font-weight: lighter; 
+
+     
+}
+
+#img-headings h3 {
+    font-size: 26px ;
+    font-weight: lighter; 
+    padding-top: 2.5vh;
+}
+
+#img-headings button {
+    background-color: black;
+    margin-top: 2.5vh;
+    border:none ;
+    height: 6.2vh ;
+    width: 19vh ;
+}
+
+button a {
+    text-decoration: none;
+    color: white ;
+}
+
+#img-headings button:hover {
+    color: black ;
+    background-color: #ccc;
+    cursor: grab ;
 }
 
 .jeanheader{
-    border: 1px solid rgb(0, 55, 255);
+    /* border: 1px solid rgb(0, 55, 255); */
     width: 113vh;
     height: 46px; 
     margin-left: 1.5vh ;
@@ -155,38 +218,26 @@
 }
 
 .jeanimg{
-    border: 1px solid rgb(255, 145, 0);
+    /* border: 1px solid rgb(255, 145, 0); */
     width: 117.2vh;
     height: 600px; 
     display: flex-box;  
 }
 
 .row1,.row2 {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 100%;
     height:50% ;
     display: flex;
     margin-left: 1vh ;
 }
 
-/* .row2 div {
-    width:25% ;
-    height: 100%;2
-    border: 1px solid red;
-}
-
-.row1 div {
-    width:25% ;
-    height: 100%;
-    border: 1px solid red;
-
-} */
-
 .jeans {
     width:25% ;
     height: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 0 1.5vh 0 1.5vh ;
+    position: relative;
 }
 
  .jeans img{
@@ -203,6 +254,45 @@
 .jeansp{
     padding: 1.5vh 0vh 1vh 0;
 } 
+ 
+
+.sale-label, .new-label1 {
+    position: absolute;
+    color: white;
+    background-color: #000;
+    font-size: 14px; 
+    border: none;
+    width: 6vh;
+    height: 2.5vh;
+    z-index:1;
+    text-align: center;
+
+}  
+
+.buy-button {
+    position: absolute;
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 0.5vh;
+    font-size: 16px;
+    cursor: pointer;
+    height: 5vh;
+    width: 14vh;
+    font-weight: 400;
+    margin-top: -24.6vh;
+    margin-left: 6vh;
+    opacity: 0;
+}
+
+.buy-button:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+.jeans:hover .buy-button {
+    opacity: 1; 
+}
 
 .subscription{
     border: 1px solid rgb(252, 2, 210);
@@ -352,6 +442,15 @@
     opacity: 60%;
 }
 
+    background-color: #f1f1f1;
+    display:flex ;
+    
+}
+.footerpt1 div {
+    border: 2px solid orchid ;
+    width: 35% ;
+    height: 100% ;
+}
 .footerpt2{
     border: 1px solid rgb(229, 255, 0);
     width: 117.2vh;
