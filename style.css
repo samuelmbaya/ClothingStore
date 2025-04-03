@@ -141,7 +141,7 @@
 }
 
 .jeanheader{
-    border: 1px solid rgb(0, 55, 255);
+    /* border: 1px solid rgb(0, 55, 255); */
     width: 113vh;
     height: 46px; 
     margin-left: 1.5vh ;
@@ -194,24 +194,29 @@
 
 .new-label1 {
     position: absolute;
-    top: 88.8%;
-    left: 45.82%; 
+    top: 89.2%;
+    left: 46.4%; 
     transform: translate(-50%, -50%); 
     color: white;
     background-color: #000;
-    font-size: 12px;
-
+    font-size: 14px;
+    width: 6vh;
+    height: 2.5vh;
+    text-align: center;
 } 
 
 .sale-label {
     position: absolute;
-    top: 129.55%;
-    left: 60%;
+    top: 129.78%;
+    left: 60.63%;
     transform: translate(-50%, -50%);
     color: white;
     background-color: #000;
-    font-size: 12px; 
+    font-size: 14px; 
     border: none;
+    width: 6vh;
+    height: 2.5vh;
+    text-align: center;
 }  
 
 .buy-button {
@@ -223,10 +228,10 @@
     font-size: 16px;
     cursor: pointer;
     height: 5vh;
-    width: 18vh;
+    width: 14vh;
     font-weight: 400;
     margin-top: -24.6vh;
-    margin-left: 4vh;
+    margin-left: 6vh;
     opacity: 0;
 }
 
