@@ -52,6 +52,10 @@
   overflow: hidden;
 }
 
+.nav-content a {
+    text-decoration: none;
+}
+
 .nav-content li {
     border: 1px solid white ; 
     font-family: "Roboto", sans-serif;
@@ -126,17 +130,75 @@
 .header{
     border: 1px solid red;
     width: 113vh;
-    height: 7vh; 
-    margin-left: 1.5vh ;
+    height: 9.8vh; 
+   
+
     display: flex;
+    align-items: center;
     justify-content: space-between;
+}
+
+#main-heading{
+    font-size: 18px;
+    font-weight: lighter ;
+    
+}
+
+#header-icons i {
+    font-size: 18px;
+    padding-left: 10px;
+
 }
 
 .headerimg{
     border: 1px solid rgb(0, 255, 42);
     width: 113vh;
-    height: 550px; 
-    margin-left: 1.5vh ;
+    height: auto; 
+    position: relative;
+}
+
+.headerimg img{
+    width: 100% ;
+    
+}
+
+#img-headings{
+    position: absolute;
+    color: white ;
+    Padding: 5.5vh 0 0 4vh ;
+
+}
+
+#img-headings h2 {
+   font-size: 47px ;
+   font-weight: lighter; 
+
+     
+}
+
+#img-headings h3 {
+    font-size: 26px ;
+    font-weight: lighter; 
+    padding-top: 2.5vh;
+}
+
+#img-headings button {
+    background-color: black;
+    margin-top: 2.5vh;
+    border:none ;
+    height: 6.2vh ;
+    width: 19vh ;
+}
+
+button a {
+    text-decoration: none;
+    color: white ;
+}
+
+#img-headings button:hover {
+    color: black ;
+    background-color: #ccc;
+    cursor: grab ;
 }
 
 .jeanheader{
@@ -253,10 +315,18 @@
 
 .footerpt1{
     border: 1px solid rgb(95, 95, 95);
-    width: 117.2vh;
-    height: 405px;  
-}
+    width: 113vh;
+    height: 55vh;  
 
+    background-color: #f1f1f1;
+    display:flex ;
+    
+}
+.footerpt1 div {
+    border: 2px solid orchid ;
+    width: 35% ;
+    height: 100% ;
+}
 .footerpt2{
     border: 1px solid rgb(229, 255, 0);
     width: 117.2vh;
