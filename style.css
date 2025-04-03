@@ -15,7 +15,7 @@
 
 .nav-section{
     height: 100vh;
-    width: 29.3%; 
+    width: 30%; 
     
     
 }
@@ -50,8 +50,9 @@
   
 }
 
-.nav-content a {
+#nav-bar a {
     text-decoration: none;
+    color: inherit;
 }
 
 .nav-content li {
@@ -81,6 +82,7 @@
 
 .nav-content li:hover {
     background-color: #ccc;
+    cursor:grab ;
 }
 
 #skinny {
@@ -93,7 +95,6 @@
 }
 
 #dropdown-content {
-    display: none;
     margin: 1.4vh 2vh 1.5vh 0;
 }
 
@@ -125,7 +126,7 @@
 }
 
 .header{
-    width: 116vh;
+    width: 114vh;
     height: 9.8vh; 
     padding-left: 2vh;
    
@@ -148,7 +149,7 @@
 }
 
 .headerimg{
-    width: 116vh;
+    width: 114vh;
     height: auto; 
     position: relative;
     padding-left: 2vh;
@@ -200,21 +201,22 @@ button a {
 
 .jeanheader{
     width: 113vh;
-    height: 46px; 
+    height: 35px; 
     margin-left: 1.5vh ;
+   
 }
 
 .jeanheaderp{
     font-size: 14px;
     font-weight: 400;
     font-family: "Montserrat", sans-serif;
-    margin: 14px;
+    margin: 1.5vh 0 1vh 1vh;
     color: #757575;
 }
 
 .jeanimg{
 
-    width: 117.2vh;
+    width: 115vh;
     height: 600px; 
     display: flex-box;  
 }
