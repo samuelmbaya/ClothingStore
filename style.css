@@ -16,14 +16,12 @@
 .nav-section{
     height: 100vh;
     width: 29.3%; 
-    border: 1px solid orange ;
     
     
 }
 
 #nav-bar {
     position: fixed;
-    border: 2px solid green;
     height: inherit;
     width: inherit; 
     padding-left: 33vh ;
@@ -40,7 +38,6 @@
 
 #banner {
     flex: 1 ;
-    border: 1px solid red;
     display: inline-block;
     height: auto ;
     /* padding-left: 1.5vh ; */
@@ -121,7 +118,6 @@
 
 
 .blank{
-    border: 1px solid blue;
     position: fixed;
     height: 100vh;
     width: 16.4%;
@@ -129,9 +125,9 @@
 }
 
 .header{
-    border: 1px solid red;
-    width: 113vh;
+    width: 116vh;
     height: 9.8vh; 
+    padding-left: 2vh;
    
 
     display: flex;
@@ -152,10 +148,10 @@
 }
 
 .headerimg{
-    border: 1px solid rgb(0, 255, 42);
-    width: 113vh;
+    width: 116vh;
     height: auto; 
     position: relative;
+    padding-left: 2vh;
 }
 
 .headerimg img{
@@ -203,7 +199,6 @@ button a {
 }
 
 .jeanheader{
-    /* border: 1px solid rgb(0, 55, 255); */
     width: 113vh;
     height: 46px; 
     margin-left: 1.5vh ;
@@ -218,14 +213,13 @@ button a {
 }
 
 .jeanimg{
-    /* border: 1px solid rgb(255, 145, 0); */
+
     width: 117.2vh;
     height: 600px; 
     display: flex-box;  
 }
 
 .row1,.row2 {
-    /* border: 2px solid blue; */
     width: 100%;
     height:50% ;
     display: flex;
@@ -235,7 +229,6 @@ button a {
 .jeans {
     width:25% ;
     height: 100%;
-    /* border: 1px solid red; */
     padding: 0 1.5vh 0 1.5vh ;
     position: relative;
 }
@@ -295,7 +288,6 @@ button a {
 }
 
 .subscription{
-    border: 1px solid rgb(252, 2, 210);
     width: 117.2vh;
     height: 240.5px; 
     background-color: black; 
@@ -342,7 +334,6 @@ button a {
 }
 
 .footerpt1{
-    border: 1px solid rgb(95, 95, 95);
     width: 117.2vh;
     height: 52vh;  
     background-color: #f1f1f1;
@@ -350,7 +341,6 @@ button a {
     
 }
 .footerpt1 div {
-    /* border: 1px solid red ; */
     width: 33.3% ;
     height: 100% ;
     padding: 0 1.5vh  ;
@@ -442,17 +432,7 @@ button a {
     opacity: 60%;
 }
 
-    background-color: #f1f1f1;
-    display:flex ;
-    
-}
-.footerpt1 div {
-    border: 2px solid orchid ;
-    width: 35% ;
-    height: 100% ;
-}
 .footerpt2{
-    border: 1px solid rgb(229, 255, 0);
     width: 117.2vh;
     height: 70px; 
     background-color: black; 
